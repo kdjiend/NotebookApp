@@ -91,7 +91,8 @@ Window > Projects → 选择项目 → 点击 Delete 派生数据
 
 
 
-
+交流分享学习：
+![IMG_1292](https://github.com/user-attachments/assets/9beaf89d-f57a-40f3-97bd-98f31bd60868)
 
 
 
