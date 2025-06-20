@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE34ACA72E03BC9B00E070FF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE34ACA62E03BC9700E070FF /* README.md */; };
+		DE7111632E04F542004ECFBD /* ComplexModule in Frameworks */ = {isa = PBXBuildFile; productRef = DE7111622E04F542004ECFBD /* ComplexModule */; };
+		DE7111652E04F542004ECFBD /* Numerics in Frameworks */ = {isa = PBXBuildFile; productRef = DE7111642E04F542004ECFBD /* Numerics */; };
+		DE7111672E04F542004ECFBD /* RealModule in Frameworks */ = {isa = PBXBuildFile; productRef = DE7111662E04F542004ECFBD /* RealModule */; };
+		DEEE716E2E03E9D600A47573 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DEEE716D2E03E9D600A47573 /* CryptoSwift */; };
+		DEEE71702E03E9EA00A47573 /* Clibsodium in Frameworks */ = {isa = PBXBuildFile; productRef = DEEE716F2E03E9EA00A47573 /* Clibsodium */; };
+		DEEE71722E03E9EA00A47573 /* Sodium in Frameworks */ = {isa = PBXBuildFile; productRef = DEEE71712E03E9EA00A47573 /* Sodium */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE34AC5B2E03BB1800E070FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE34AC3F2E03BB1600E070FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE34AC462E03BB1600E070FF;
+			remoteInfo = NotebookApp;
+		};
+		DE34AC652E03BB1800E070FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE34AC3F2E03BB1600E070FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE34AC462E03BB1600E070FF;
+			remoteInfo = NotebookApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE34AC472E03BB1600E070FF /* NotebookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotebookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE34AC5A2E03BB1800E070FF /* NotebookAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotebookAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE34AC642E03BB1800E070FF /* NotebookAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotebookAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE34ACA62E03BC9700E070FF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DE34AC492E03BB1600E070FF /* NotebookApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NotebookApp;
+			sourceTree = "<group>";
+		};
+		DE34AC5D2E03BB1800E070FF /* NotebookAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NotebookAppTests;
+			sourceTree = "<group>";
+		};
+		DE34AC672E03BB1800E070FF /* NotebookAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NotebookAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE34AC442E03BB1600E070FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEE716E2E03E9D600A47573 /* CryptoSwift in Frameworks */,
+				DEEE71702E03E9EA00A47573 /* Clibsodium in Frameworks */,
+				DE7111672E04F542004ECFBD /* RealModule in Frameworks */,
+				DEEE71722E03E9EA00A47573 /* Sodium in Frameworks */,
+				DE7111632E04F542004ECFBD /* ComplexModule in Frameworks */,
+				DE7111652E04F542004ECFBD /* Numerics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE34AC572E03BB1800E070FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE34AC612E03BB1800E070FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE34AC3E2E03BB1600E070FF = {
+			isa = PBXGroup;
+			children = (
+				DE34ACA62E03BC9700E070FF /* README.md */,
+				DE34AC492E03BB1600E070FF /* NotebookApp */,
+				DE34AC5D2E03BB1800E070FF /* NotebookAppTests */,
+				DE34AC672E03BB1800E070FF /* NotebookAppUITests */,
+				DE34AC482E03BB1600E070FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE34AC482E03BB1600E070FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE34AC472E03BB1600E070FF /* NotebookApp.app */,
+				DE34AC5A2E03BB1800E070FF /* NotebookAppTests.xctest */,
+				DE34AC642E03BB1800E070FF /* NotebookAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE34AC462E03BB1600E070FF /* NotebookApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE34AC6E2E03BB1800E070FF /* Build configuration list for PBXNativeTarget "NotebookApp" */;
+			buildPhases = (
+				DE34AC432E03BB1600E070FF /* Sources */,
+				DE34AC442E03BB1600E070FF /* Frameworks */,
+				DE34AC452E03BB1600E070FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DE34AC492E03BB1600E070FF /* NotebookApp */,
+			);
+			name = NotebookApp;
+			packageProductDependencies = (
+				DEEE716D2E03E9D600A47573 /* CryptoSwift */,
+				DEEE716F2E03E9EA00A47573 /* Clibsodium */,
+				DEEE71712E03E9EA00A47573 /* Sodium */,
+				DE7111622E04F542004ECFBD /* ComplexModule */,
+				DE7111642E04F542004ECFBD /* Numerics */,
+				DE7111662E04F542004ECFBD /* RealModule */,
+			);
+			productName = NotebookApp;
+			productReference = DE34AC472E03BB1600E070FF /* NotebookApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE34AC592E03BB1800E070FF /* NotebookAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE34AC712E03BB1800E070FF /* Build configuration list for PBXNativeTarget "NotebookAppTests" */;
+			buildPhases = (
+				DE34AC562E03BB1800E070FF /* Sources */,
+				DE34AC572E03BB1800E070FF /* Frameworks */,
+				DE34AC582E03BB1800E070FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE34AC5C2E03BB1800E070FF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DE34AC5D2E03BB1800E070FF /* NotebookAppTests */,
+			);
+			name = NotebookAppTests;
+			packageProductDependencies = (
+			);
+			productName = NotebookAppTests;
+			productReference = DE34AC5A2E03BB1800E070FF /* NotebookAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE34AC632E03BB1800E070FF /* NotebookAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE34AC742E03BB1800E070FF /* Build configuration list for PBXNativeTarget "NotebookAppUITests" */;
+			buildPhases = (
+				DE34AC602E03BB1800E070FF /* Sources */,
+				DE34AC612E03BB1800E070FF /* Frameworks */,
+				DE34AC622E03BB1800E070FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE34AC662E03BB1800E070FF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DE34AC672E03BB1800E070FF /* NotebookAppUITests */,
+			);
+			name = NotebookAppUITests;
+			packageProductDependencies = (
+			);
+			productName = NotebookAppUITests;
+			productReference = DE34AC642E03BB1800E070FF /* NotebookAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE34AC3F2E03BB1600E070FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					DE34AC462E03BB1600E070FF = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					DE34AC592E03BB1800E070FF = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DE34AC462E03BB1600E070FF;
+					};
+					DE34AC632E03BB1800E070FF = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DE34AC462E03BB1600E070FF;
+					};
+				};
+			};
+			buildConfigurationList = DE34AC422E03BB1600E070FF /* Build configuration list for PBXProject "NotebookApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE34AC3E2E03BB1600E070FF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DE00055F2E03BE7600BA17B9 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				DE0005682E03C61C00BA17B9 /* XCRemoteSwiftPackageReference "swift-sodium" */,
+				DE00059C2E03CBA800BA17B9 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				DE7111612E04F542004ECFBD /* XCRemoteSwiftPackageReference "swift-numerics" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DE34AC482E03BB1600E070FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE34AC462E03BB1600E070FF /* NotebookApp */,
+				DE34AC592E03BB1800E070FF /* NotebookAppTests */,
+				DE34AC632E03BB1800E070FF /* NotebookAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE34AC452E03BB1600E070FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE34ACA72E03BC9B00E070FF /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE34AC582E03BB1800E070FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE34AC622E03BB1800E070FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE34AC432E03BB1600E070FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE34AC562E03BB1800E070FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE34AC602E03BB1800E070FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE34AC5C2E03BB1800E070FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE34AC462E03BB1600E070FF /* NotebookApp */;
+			targetProxy = DE34AC5B2E03BB1800E070FF /* PBXContainerItemProxy */;
+		};
+		DE34AC662E03BB1800E070FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE34AC462E03BB1600E070FF /* NotebookApp */;
+			targetProxy = DE34AC652E03BB1800E070FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE34AC6C2E03BB1800E070FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5P3XH73YXM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE34AC6D2E03BB1800E070FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5P3XH73YXM;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DE34AC6F2E03BB1800E070FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotebookApp/NotebookApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P3XH73YXM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsyshare.NotebookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DE34AC702E03BB1800E070FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotebookApp/NotebookApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P3XH73YXM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsyshare.NotebookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DE34AC722E03BB1800E070FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P3XH73YXM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsyshare.NotebookAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotebookApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotebookApp";
+			};
+			name = Debug;
+		};
+		DE34AC732E03BB1800E070FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P3XH73YXM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsyshare.NotebookAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotebookApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotebookApp";
+			};
+			name = Release;
+		};
+		DE34AC752E03BB1800E070FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P3XH73YXM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsyshare.NotebookAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NotebookApp;
+			};
+			name = Debug;
+		};
+		DE34AC762E03BB1800E070FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P3XH73YXM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsyshare.NotebookAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NotebookApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE34AC422E03BB1600E070FF /* Build configuration list for PBXProject "NotebookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE34AC6C2E03BB1800E070FF /* Debug */,
+				DE34AC6D2E03BB1800E070FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE34AC6E2E03BB1800E070FF /* Build configuration list for PBXNativeTarget "NotebookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE34AC6F2E03BB1800E070FF /* Debug */,
+				DE34AC702E03BB1800E070FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE34AC712E03BB1800E070FF /* Build configuration list for PBXNativeTarget "NotebookAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE34AC722E03BB1800E070FF /* Debug */,
+				DE34AC732E03BB1800E070FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE34AC742E03BB1800E070FF /* Build configuration list for PBXNativeTarget "NotebookAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE34AC752E03BB1800E070FF /* Debug */,
+				DE34AC762E03BB1800E070FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE00055F2E03BE7600BA17B9 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		DE0005682E03C61C00BA17B9 /* XCRemoteSwiftPackageReference "swift-sodium" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jedisct1/swift-sodium.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+		DE00059C2E03CBA800BA17B9 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.4;
+			};
+		};
+		DE7111612E04F542004ECFBD /* XCRemoteSwiftPackageReference "swift-numerics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-numerics.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE7111622E04F542004ECFBD /* ComplexModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE7111612E04F542004ECFBD /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = ComplexModule;
+		};
+		DE7111642E04F542004ECFBD /* Numerics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE7111612E04F542004ECFBD /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = Numerics;
+		};
+		DE7111662E04F542004ECFBD /* RealModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE7111612E04F542004ECFBD /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = RealModule;
+		};
+		DEEE716D2E03E9D600A47573 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE00059C2E03CBA800BA17B9 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		DEEE716F2E03E9EA00A47573 /* Clibsodium */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE0005682E03C61C00BA17B9 /* XCRemoteSwiftPackageReference "swift-sodium" */;
+			productName = Clibsodium;
+		};
+		DEEE71712E03E9EA00A47573 /* Sodium */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE0005682E03C61C00BA17B9 /* XCRemoteSwiftPackageReference "swift-sodium" */;
+			productName = Sodium;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DE34AC3F2E03BB1600E070FF /* Project object */;
+}
